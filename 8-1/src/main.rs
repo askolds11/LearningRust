@@ -37,7 +37,7 @@ fn main() {
     for i in integers {
         occurences.entry(i)
             .and_modify(|count| { *count += 1 })
-            .or_insert(0);
+            .or_insert(1);
     }
     
 
