@@ -20,7 +20,7 @@ fn main() {
     let words = strings.split(" ");
 
     for word in words {
-        if (word.is_empty()) {
+        if word.is_empty() {
             continue;
         }
         //only support ascii for simplicity.
